@@ -1,0 +1,16 @@
+.header__logo-link {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 1.15;
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-right: 18px;
+}
+
+.header__logo-link:hover {
+  text-decoration: underline;
+}
+
+.header__logo-link:last-child {
+
+}
