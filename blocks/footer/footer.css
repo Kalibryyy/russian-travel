@@ -1,0 +1,7 @@
+@import url(../footer/__links/footer__links.css);
+@import url(../footer/__link/footer__link.css);
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
