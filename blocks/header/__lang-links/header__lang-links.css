@@ -1,6 +1,7 @@
-.header__logo-links {
+.header__lang-links {
   list-style-type: none;
   display: flex;
+  padding-left: 0;
 }
 
 

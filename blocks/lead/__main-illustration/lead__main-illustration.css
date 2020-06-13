@@ -1,7 +1,7 @@
 .lead__main-illustration {
     width: 984px;
     height: 615px;
-    margin: auto;
     background-size: contain;
     margin-bottom: 8px;
+    object-fit: contain;
 }

@@ -1,6 +1,6 @@
 .intro__text {
   width: 690px;
-  height: 208px;
+  min-height: 208px;
   font-size: 16px;
   line-height: 1.60;
   color: #FFFFFF;

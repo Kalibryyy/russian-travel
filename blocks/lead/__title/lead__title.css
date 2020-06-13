@@ -4,7 +4,7 @@
   font-weight: 900;
   text-align: center;
   color: #FFFFFF;
-  margin: 0 auto 32px;
+  margin: 0 0 32px;
   width: 720px;
-  height: 200px;
+  min-height: 200px;
 }

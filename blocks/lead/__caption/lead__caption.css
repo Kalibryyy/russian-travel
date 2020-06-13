@@ -2,9 +2,10 @@
   width: 159px;
   height: 14px;
   font-size: 10px;
-  line-height: 1, 4px;
+  line-height: 1.4px;
   letter-spacing: 0.15em;
   text-transform: uppercase;
   color: #FFFFFF;
-  margin-left: 148px;
+  margin-left: 100px;
+  align-self: flex-start;
 }

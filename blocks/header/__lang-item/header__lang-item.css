@@ -1,0 +1,11 @@
+.header__lang-item {
+  margin-right: 18px;
+}
+
+.header__lang-item:last-child {
+  margin-right: 0;
+}
+
+.header__lang-item:first-child {
+    text-decoration: underline;
+}

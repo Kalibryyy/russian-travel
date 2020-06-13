@@ -1,0 +1,16 @@
+@import url(../photo-grid/__elbrus/photo-grid__elbrus.css);
+@import url(../photo-grid/__kondratiev/photo-grid__kondratiev.css);
+@import url(../photo-grid/__kamchatka-1/photo-grid__kamchatka-1.css);
+@import url(../photo-grid/__kamchatka-2/photo-grid__kamchatka-2.css);
+@import url(../photo-grid/__baikal-2/photo-grid__baikal-2.css);
+@import url(../photo-grid/__ergaki/photo-grid__ergaki.css);
+
+.photo-grid {
+  display: grid;
+  
+  grid-gap: 16px;
+  margin-bottom: 92px;
+  grid-template-rows: auto;
+  grid-auto-rows: 213px;
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+}
