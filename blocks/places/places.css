@@ -6,3 +6,8 @@
 @import url(../places/__content/places__content.css);
 @import url(../places/__image/places__image.css);
 @import url(../places/__paragraph/places__paragraph.css);
+
+.places {
+    max-width: 984px;
+    margin: 0 auto;
+}
