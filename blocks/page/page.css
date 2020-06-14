@@ -25,8 +25,7 @@
   background-color: #2a2c2f;
   padding-top: 28px;
   padding-bottom: 24px;
-  box-sizing: border-box;
-  font-family: 'Inter';
+  font-family: 'Inter', Arial, sans-serif;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;

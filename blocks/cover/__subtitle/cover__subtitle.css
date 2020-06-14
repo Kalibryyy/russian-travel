@@ -2,7 +2,8 @@
   font-size: 18px;
   line-height: 1.22;
   text-align: center;
-  width: 360px;
+  max-width: 360px;
   min-width: 66px;
   margin: 0;
+  z-index: 1;
 }

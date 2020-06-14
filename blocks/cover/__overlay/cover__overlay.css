@@ -1,13 +1,15 @@
 .cover__overlay {
-  width: 1184px;
+  width: 100%;
   height: 740px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: rgba(0, 0, 0, .3);
-  transition: background-color .9s ease;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #2A2C2F;
+  transition: opacity 0.9s ease-in-out;
+  opacity: 0.3;
 }
 
 .cover__overlay:hover {
-  background-color: rgba(0, 0, 0, .8);
+  opacity: 0.8;
 }

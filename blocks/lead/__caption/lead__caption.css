@@ -2,14 +2,15 @@
   width: 159px;
   height: 14px;
   font-size: 10px;
-  line-height: 1.4px;
+  line-height: 1.4;
   letter-spacing: 0.15em;
   text-transform: uppercase;
   align-self: flex-start;
+  margin: 0;
 }
 
 @media screen and (max-width: 768px) {
   .lead__caption {
-      
+   
   }
 }

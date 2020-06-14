@@ -3,5 +3,6 @@
 @import url(../intro/__list/intro__list.css);
 
 .intro {
-    margin-bottom: 92px;
+    max-width: 984px;
+    margin: 0 auto 92px;
 }

@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Rissian-Travel</title>
   <link rel="stylesheet" href="vendor/normalize.css">
   <link rel="stylesheet" href="pages/index.css">
 </head>
@@ -14,8 +14,8 @@
     <header class="header">
       <div class="logo"></div>
       <ul class="header__lang-links">
-        <li class="header__lang-item"><a href="#" class="header__lang-link">Ru</a></li>
-        <li class="header__lang-item"><a href="#" class="header__lang-link">En</a></li>
+        <li class="header__lang-item"><a href="#" class="header__lang-link link header__lang-link_active">Ru</a></li>
+        <li class="header__lang-item"><a href="#" class="header__lang-link link">En</a></li>
       </ul>
     </header>
     <main class="content">
@@ -63,7 +63,7 @@
             <h2 class="places__title">Куршская коса</h2>
             <div class="places__website">
               <p class="places__url-heading">URL</p>
-              <a href="#" class="places__link">park-kosa.ru</a>
+              <a href="http://park-kosa.ru" target="_blank" class="places__link">park-kosa.ru</a>
             </div>
           </div>
           <div class="places__content">
@@ -86,15 +86,16 @@
             <h2 class="places__title">Кольский</h2>
             <div class="places__website">
               <p class="places__url-heading">URL</p>
-              <a href="#" class="places__link">National Geographic</a>
+              <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank"
+                class="places__link">National
+                Geographic</a>
             </div>
           </div>
           <div class="places__content">
             <img src="images/place-kolsky.jpg" alt="" class="places__image">
             <div>
               <p class="places__paragraph">Почти весь полуостров находится за Полярным кругом. Саамская тундра,
-                от которой на юг —
-                тайга, а на север — Ледовитый океан, прикидывающийся Баренцевым морем.</p>
+                от которой на юг — тайга, а на север — Ледовитый океан, прикидывающийся Баренцевым морем.</p>
               <p class="places__paragraph">Возможно, вы смотрели Звягинцева и даже слышали историю арктического
                 фестиваля в Териберке. Возможно, слово «Хибины» не осталось под снегом школьных воспоминаний
                 об уроках географии. Возможно, вы не интересовались пронизывающей земную кору сверхглубокой скважиной,
@@ -108,7 +109,8 @@
             <h2 class="places__title">Алтай</h2>
             <div class="places__website">
               <p class="places__url-heading">URL</p>
-              <a href="#" class="places__link">Facebook</a>
+              <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="_blank"
+                class="places__link">Facebook</a>
             </div>
           </div>
           <div class="places__content">
@@ -131,7 +133,7 @@
             <h2 class="places__title">Зимний Байкал</h2>
             <div class="places__website">
               <p class="places__url-heading">URL</p>
-              <a href="#" class="places__link">https://vk.com/baikalmile</a>
+              <a href="https://vk.com/baikalmile" target="_blank" class="places__link">https://vk.com/baikalmile</a>
             </div>
           </div>
           <div class="places__content">
@@ -155,7 +157,7 @@
             <h2 class="places__title">Карелия</h2>
             <div class="places__website">
               <p class="places__url-heading">URL</p>
-              <a href="#" class="places__link">http://vodlozero.ru/</a>
+              <a href="http://vodlozero.ru" target="_blank" class="places__link">http://vodlozero.ru/</a>
             </div>
           </div>
           <div class="places__content">
@@ -174,24 +176,27 @@
         </article>
       </section>
       <section class="cover">
+
         <div class="cover__background">
-          <div class="cover__overlay">
-            <h2 class="cover__title">До Байкала «на собаках»</h2>
-            <p class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до Байкала
-              на
-              электричках.</p>
-          </div>
+          <h2 class="cover__title">До Байкала «на собаках»</h2>
+          <p class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до
+            Байкала на электричках.</p>
         </div>
+        <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" class="link">
+        <div class="cover__overlay">
+          
+        </div>
+        </a>
       </section>
     </main>
     <footer class="footer">
       <nav>
         <ul class="footer__links">
-          <li><a href="#" class="footer__link">Карты</a></li>
-          <li><a href="" class="footer__link">Погода</a></li>
-          <li><a href="" class="footer__link">Расписание</a></li>
-          <li><a href="" class="footer__link">Календарь</a></li>
-          <li><a href="" class="footer__link">Путешествия</a></li>
+          <li><a href="https://yandex.ru/maps" target="_blank" class="footer__link link">Карты</a></li>
+          <li><a href="https://yandex.ru/pogoda" target="_blank" class="footer__link link">Погода</a></li>
+          <li><a href="https://rasp.yandex.ru" target="_blank" class="footer__link link">Расписание</a></li>
+          <li><a href="https://calendar.yandex.ru" target="_blank" class="footer__link link">Календарь</a></li>
+          <li><a href="https://travel.yandex.ru" target="_blank" class="footer__link link">Путешествия</a></li>
         </ul>
       </nav>
       <p class="footer__copyright">© 2020. Елена Стрижакова</p>
@@ -200,4 +205,4 @@
 
 </body>
 
-</html>
+</html> 

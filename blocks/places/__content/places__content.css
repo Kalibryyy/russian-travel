@@ -1,4 +1,11 @@
 .places__content {
-    display: flex;
-    margin-bottom: 80px;
+  display: flex;
+  margin-bottom: 80px;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1024px) {
+  .places__content {
+    margin-bottom: 84px;
+  }
 }

@@ -4,3 +4,7 @@
   max-width: 484px;
   margin: 0 0 24px;
 }
+
+.places__paragraph:last-child {
+  margin: 0;
+}
