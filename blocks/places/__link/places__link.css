@@ -6,3 +6,8 @@
     width: 456px;
     height: 22px;
 }
+
+.places__link:hover {
+    opacity: .6;
+    transition: opacity 2s linear;
+  }

@@ -5,3 +5,28 @@
   line-height: 1.05;
   margin: 0 40px 0 0;
 }
+
+@media screen and (max-width: 1080px) {
+  .places__title {
+    margin-right: 32px;
+    width: 440px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .places__title {
+    font-size: 42px;
+    line-height: 1.1;
+    min-height: 92px;
+    width: 340px;
+    margin-right: 28px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .places__title {
+    font-size: 32px;
+    line-height: 1.1;
+    min-height: 35px;
+  }
+}

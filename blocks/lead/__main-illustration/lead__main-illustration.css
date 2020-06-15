@@ -4,3 +4,14 @@
     object-fit: contain;
 }
 
+@media screen and (max-width: 768px) {
+    .lead__main-illustration {
+  width: calc(100% + 48px);
+    }
+  }
+
+  @media screen and (max-width: 425px) {
+    .lead__main-illustration {
+  width: calc(100% + 32px);
+    }
+  }

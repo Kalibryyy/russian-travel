@@ -3,3 +3,9 @@
     margin-bottom: 48px;
     flex-wrap: wrap;
 }
+
+@media screen and (max-width: 767px) {
+    .places__head {
+      margin-bottom: 32px;
+    }
+  }

@@ -8,3 +8,28 @@
 .places__paragraph:last-child {
   margin: 0;
 }
+
+@media screen and (max-width: 1080px) {
+  .places__paragraph {
+    max-width: 456px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .places__paragraph {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 24px;
+    max-width: 352px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .places__paragraph {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 24px;
+    max-width: 288px;
+  }
+}
+

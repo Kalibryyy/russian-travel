@@ -1,11 +1,36 @@
 .places__image {
   margin-right: 40px;
-  width: 460px;
+  max-width: 460px;
   object-fit: contain;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1080px) {
   .places__image {
     width: 440px;
+    height: 440px;
+    margin-right: 32px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .places__image {
+    width: 340px;
+    height: 340px;
+    margin-right: 28px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .places__image {
+    width: 320px;
+    height: 320px;
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .places__image {
+    margin-right: 0;
+    margin-left: -16px;
   }
 }

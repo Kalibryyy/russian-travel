@@ -3,3 +3,9 @@
   cursor: pointer;
   text-decoration: none;
 }
+
+
+.link:hover {
+  opacity: .6;
+  transition: opacity 2s linear;
+}
