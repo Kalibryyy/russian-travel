@@ -4,16 +4,29 @@
 @import url(../intro/__figure/intro__figure.css);
 
 .intro {
-    max-width: 984px;
-    margin: 0 auto 92px;
+  max-width: 984px;
+  margin-bottom: 92px;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    margin-left: 48px;
+    margin-right: 48px;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .intro {
-        margin-bottom: 88px;
-    }
+  .intro {
+    margin-bottom: 88px;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+}
 
 @media screen and (max-width: 425px) {
-    .intro {
-        margin-bottom: 64px;
-    }
+  .intro {
+    margin-bottom: 64px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}

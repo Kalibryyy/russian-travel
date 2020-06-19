@@ -8,3 +8,24 @@
     align-items: center;
     flex-wrap: wrap;
 }
+
+@media screen and (max-width: 1024px) {
+    .footer {
+        margin-left: 48px;
+        margin-right: 48px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .footer {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+}

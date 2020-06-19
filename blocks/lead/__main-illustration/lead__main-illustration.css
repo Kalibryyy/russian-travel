@@ -1,17 +1,17 @@
 .lead__main-illustration {
-    width: 100%;
-    margin-bottom: 8px;
-    object-fit: contain;
+  width: 100%;
+  margin-bottom: 8px;
+  object-fit: contain;
 }
 
 @media screen and (max-width: 768px) {
-    .lead__main-illustration {
-  width: calc(100% + 48px);
-    }
+  .lead__main-illustration {
+    width: 100%;
   }
+}
 
-  @media screen and (max-width: 425px) {
-    .lead__main-illustration {
-  width: calc(100% + 32px);
-    }
+@media screen and (max-width: 425px) {
+  .lead__main-illustration {
+    width: calc(100% + 32px);
   }
+}

@@ -21,30 +21,9 @@
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .page {
-    padding-left: 24px;
-    padding-right: 24px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .page {
-    padding-left: 24px;
-    padding-right: 24px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .page {
-    padding-left: 24px;
-    padding-right: 24px;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .page {
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 0;
+    padding-right: 0;
   }
 }

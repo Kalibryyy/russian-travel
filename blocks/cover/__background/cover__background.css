@@ -15,26 +15,17 @@
   @media screen and (max-width: 1024px) {
     .cover__background {
       height: 640px;
-      width: calc(100% + 96px);
-      position: relative;
-      left: -48px;
     }
   }
 
   @media screen and (max-width: 768px) {
     .cover__background {
       height: 480px;
-      width: calc(100% + 48px);
-      position: relative;
-      left: -24px;
     }
   }
 
   @media screen and (max-width: 425px) {
     .cover__background {
       height: 200px;
-      width: calc(100% + 32px);
-      position: relative;
-      left: -16px;
     }
   }

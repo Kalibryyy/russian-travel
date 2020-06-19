@@ -4,21 +4,31 @@
 @import url(../lead/__caption/lead__caption.css);
 
 .lead {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 984px;
-    margin: 0 auto 92px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 984px;
+  margin: 0 auto 92px;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead {
+    margin-left: 48px;
+    margin-right: 48px;
+    max-width: 928px;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .lead {
-      margin-bottom: 88px;
-    }
+  .lead {
+    margin-bottom: 88px;
+    margin-left: 0;
+    margin-right: 0;
   }
+}
 
-  @media screen and (max-width: 425px) {
-    .lead {
-      margin-bottom: 64px;
-    }
+@media screen and (max-width: 425px) {
+  .lead {
+    margin-bottom: 64px;
   }
+}

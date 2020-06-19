@@ -17,23 +17,17 @@
 @media screen and (max-width: 1024px) {
   .cover__overlay {
     height: 640px;
-    width: calc(100% + 96px);
-    left: -48px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover__overlay {
     height: 480px;
-    width: calc(100% + 48px);
-    left: -24px;
   }
 }
 
 @media screen and (max-width: 425px) {
   .cover__overlay {
     height: 200px;
-    width: calc(100% + 32px);
-    left: -16px;
   }
 }
