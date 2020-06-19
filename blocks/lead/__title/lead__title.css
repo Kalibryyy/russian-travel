@@ -5,10 +5,9 @@
   text-align: center;
   margin: 0 0 32px;
   max-width: 720px;
-  min-height: 200px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .lead__title {
     font-size: 65px;
     line-height: 1.1;
@@ -18,7 +17,6 @@
 @media screen and (max-width: 425px) {
   .lead__title {
     max-width: 288px;
-    min-height: 88px;
     font-size: 40px;
     line-height: 1.1;
     margin-bottom: 16px;

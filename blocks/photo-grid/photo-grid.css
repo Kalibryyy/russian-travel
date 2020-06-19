@@ -1,9 +1,4 @@
-@import url(../photo-grid/__elbrus/photo-grid__elbrus.css);
-@import url(../photo-grid/__kondratiev/photo-grid__kondratiev.css);
-@import url(../photo-grid/__kamchatka-1/photo-grid__kamchatka-1.css);
-@import url(../photo-grid/__kamchatka-2/photo-grid__kamchatka-2.css);
-@import url(../photo-grid/__baikal-2/photo-grid__baikal-2.css);
-@import url(../photo-grid/__ergaki/photo-grid__ergaki.css);
+@import url(../photo-grid/__item/photo-grid__item.css);
 
 .photo-grid {
   display: grid;
@@ -17,6 +12,7 @@
 @media screen and (max-width: 1024px) {
   .photo-grid {
     grid-gap: 14px;
+    grid-auto-rows: 225px;
   }
 }
 
@@ -33,3 +29,4 @@
     margin-bottom: 64px;
   }
 }
+

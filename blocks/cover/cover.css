@@ -2,13 +2,8 @@
 @import url(./__title/cover__title.css);
 @import url(./__subtitle/cover__subtitle.css);
 @import url(./__overlay/cover__overlay.css);
-@import url(./__link/cover__link.css);
 
 .cover {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   margin: 92px 0;
   position: relative;
 }

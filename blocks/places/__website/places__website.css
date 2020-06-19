@@ -1,10 +1,11 @@
 .places__website {
     align-self: flex-end;
-    min-height: 46px;
 }
 
-@media screen and (max-width: 683px) {
-    .places__website {
+@media screen and (max-width: 700px) {
+ .places__website {
       display: none;
     }
   }
+
+

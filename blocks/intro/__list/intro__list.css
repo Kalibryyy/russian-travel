@@ -1,5 +1,5 @@
 .intro__list {
-  width: 690px;
+  max-width: 690px;
   min-height: 90px;
   font-weight: bold;
   font-size: 12px;
