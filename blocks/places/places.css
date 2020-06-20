@@ -1,4 +1,3 @@
-@import url(../places/__head/places__head.css);
 @import url(../places/__title/places__title.css);
 @import url(../places/__website/places__website.css);
 @import url(../places/__link/places__link.css);
@@ -24,10 +23,3 @@
     margin: 0 24px;
   }
 }
-
-@media screen and (max-width: 768px) {
-  .places {
-    margin: 0;
-  }
-}
-
