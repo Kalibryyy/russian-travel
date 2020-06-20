@@ -5,7 +5,7 @@
 
 .intro {
   max-width: 984px;
-  margin-bottom: 92px;
+  margin: 0 auto 92px;
 }
 
 @media screen and (max-width: 1024px) {
