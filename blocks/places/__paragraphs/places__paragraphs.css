@@ -1,7 +1,9 @@
-@media screen and (max-width: 425px) {
-    .places__paragraphs {
-      margin-left: 16px;
-      margin-right: 16px;
-    }
-  }
+.place__paragraphs {
+  margin: 0;
+}
 
+@media screen and (max-width: 425px) {
+  .places__paragraphs {
+    margin: 0 16px;
+  }
+}

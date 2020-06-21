@@ -4,7 +4,6 @@
 
 .header {
   max-width: 1184px;
-  min-height: 52px;
   margin: 0 auto 56px;
   display: flex;
   justify-content: space-between;
